@@ -1,18 +1,14 @@
 # SeleniumQaWork
-
   In this repository, some script makes for my office QA Work & other I perform for learning automation.
 
-## ➜ Get IP Address 
+## ➜ Get IP Address Script
         Path: SeleniumQa/selenium/src/assign/IPCOn.java
+        Description: in this Script, we get and validate Ip Address of System.
 
-    Description: in this Script, we get and validate Ip Address of System
+## ➜ E-commerce site Script
+      Here I am performing Automation on Amazon, Flipkart, Grofers, MakeMyTrip.
 
-## ➜ E-commerce site
-
-      Here I am performing Automation on Amazon, Flipkart, Grofers, MakeMyTrip
-
-## ➜ Gmail 
-
+## ➜ Gmail Script
     Steps which I performing in script
                          
        1. Go to Gmail Account.
@@ -23,5 +19,14 @@
 
 
 ## ➜ Find Broken Link Script
-
-    Description: In this Script, we find broken in given Domain or website
+    Description: In this Script, we find broken in given Domain or website.
+    
+## ➜ JDBC Database Script
+      In this Script I check a data properly inserted in database.
+      
+## ➜ Read Data From Excel Script
+        In thsi Script i Get data from Excel Sheet and Fill a registration form.
+        URL: http://demo.guru99.com/test/newtours/
+        
+## ➜ Verify Title Script
+      in this Script I Try to verify a data on web page using Assert Method.
