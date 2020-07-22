@@ -43,7 +43,7 @@ public class Test1 {
 	j.selectByIndex(3);
 	j.selectByIndex(4);
 	
-	driver.findElement(By.name("photo")).sendKeys("G:\\My Drive\\wallpaper\\webpages\\comingsoon_01\\images\\bg01.jpg");
+	driver.findElement(By.name("photo")).sendKeys("C:\\Users\\Sagar Shah\\Downloads\\repository-open-graph-template.png");
 	
 	//driver.findElement(By.linkText("Click here to Download File")).click();
 	    

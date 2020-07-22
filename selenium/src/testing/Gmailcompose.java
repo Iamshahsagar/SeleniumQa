@@ -42,14 +42,14 @@ public class Gmailcompose {
 		Thread.sleep(5000);
 		
 		// Click on compose button
-		driver.findElement(By.xpath("//*[@id=':j3']/div")).click();
+		driver.findElement(By.xpath("//div[@class='T-I J-J5-Ji T-I-KE L3']")).click();
 		
 		
 		// enter to Email address
 		
 	//	Recipients
 		Thread.sleep(5000);
-		driver.findElement(By.cssSelector("[aria-label='To - Select contacts']")).sendKeys("iamshahsagar@gmail.com"  +Keys.TAB );
+		driver.findElement(By.cssSelector("[aria-label='To']")).sendKeys("iamshahsagar@gmail.com"  +Keys.TAB );
 		Thread.sleep(5000);
 
 		
@@ -81,10 +81,12 @@ public class Gmailcompose {
 		// click on send
 		
 		Thread.sleep(5000);
-		driver.findElement(By.cssSelector("[aria-label='Send ‪(Ctrl-Enter)‬']")).click();
+		driver.findElement(By.cssSelector("[aria-label=\'Send ‪(Ctrl-Enter)‬\']")).click();
 		
 		
 		Thread.sleep(5000);
+		
+		driver.quit();
 
 				
 

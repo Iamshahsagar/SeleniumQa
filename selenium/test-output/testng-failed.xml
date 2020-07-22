@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="assign.BSW">
+      <class name="testing.Practicalclass">
         <methods>
-          <include name="thirdpage"/>
-          <include name="startup"/>
+          <include name="doubleclick"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="altmessage"/>
+          <include name="Windowchange"/>
+          <include name="RightClick"/>
         </methods>
-      </class> <!-- assign.BSW -->
+      </class> <!-- testing.Practicalclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

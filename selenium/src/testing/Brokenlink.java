@@ -22,9 +22,9 @@ public class Brokenlink {
     	
     	ChromeOptions options = new ChromeOptions();
 		options.addArguments("disable-notifications");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sagar Shah\\eclipse-workspace\\Test\\src\\Work\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);
-		String homePage ="http://gwg.digital/sf/";
+		String homePage ="http://www.globalgarner.com";
 	driver.manage().window().maximize();
         // TODO Auto-generated method stub
        

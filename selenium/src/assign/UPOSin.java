@@ -16,7 +16,7 @@ public class UPOSin {
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);
 			
-		driver.get("https://upos.globalgarner.in/");
+		driver.get("https://upos.globalgarner.com/");
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.id("navbarDropdown")).click();

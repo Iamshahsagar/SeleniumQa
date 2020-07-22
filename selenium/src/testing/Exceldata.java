@@ -26,7 +26,7 @@ public class Exceldata {
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver Driver= new ChromeDriver();
-		Driver.get("http://www.newtours.demoaut.com/");
+		Driver.get("http://demo.guru99.com/test/newtours/");
 		Driver.manage().window().maximize();
 		FileInputStream file = new FileInputStream("D:\\sagar work\\testingdata.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
@@ -43,7 +43,7 @@ public class Exceldata {
 			String address = currentrow.getCell(4).getStringCellValue();
 			String city = currentrow.getCell(5).getStringCellValue();
 			String state = currentrow.getCell(6).getStringCellValue();
-		int pincode =   (int) currentrow.getCell(7).getNumericCellValue();
+int pincode =   (int) currentrow.getCell(7).getNumericCellValue();
 			String country = currentrow.getCell(8).getStringCellValue();
 			String username = currentrow.getCell(9).getStringCellValue();
 			String password = currentrow.getCell(10).getStringCellValue();
@@ -61,7 +61,7 @@ public class Exceldata {
 			Driver.findElement(By.name("email")).sendKeys(username);
 			Driver.findElement(By.name("password")).sendKeys(password);
 			Driver.findElement(By.cssSelector("table:nth-child(2) tbody:nth-child(1) tr:nth-child(16) td:nth-child(2) > input:nth-child(1)")).sendKeys(password);
-			Driver.findElement(By.name("register")).click();
+			Driver.findElement(By.name("register")).click(); 
 			Thread.sleep(3000);
 			if(Driver.getPageSource().contains("Thank you for registering."))
 			{

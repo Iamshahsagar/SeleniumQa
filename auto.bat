@@ -1,4 +1,4 @@
-cd C:\Users\Sagar Shah\eclipse-workspace\Test
+cd D:\Eclips work
 git add *
 git commit -m "Auto"
 git push
