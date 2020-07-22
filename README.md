@@ -20,24 +20,27 @@
 
 
 ## ➜ Find Broken Link Script
-    Description: In this Script, we find broken in given Domain or website.
+    Description: In this Script, we find broken in a given Domain or website.
     
 ## ➜ JDBC Database Script
-      In this Script, I check a data properly inserted in database.
+      In this Script, I check data properly inserted in the database.
       
 ## ➜ Read Data From Excel Script
-        In thsi Script, i Get data from Excel Sheet and Fill a registration form.
+        In this Script, I Get data from Excel Sheet and Fill a registration form.
         URL: http://demo.guru99.com/test/newtours/
         
 ## ➜ Verify Title of page Script
-      in this Script I Try to verify a data on web page using Assert Method.
+      in this Script, I Try to verify data on the web page using Assert Method.
 
 ## ➜ Verify Some Automation task Script
-      In this Script, i performed Some automation task With Help of TestNG.
+      In this Script, I performed Some automation tasks With the Help of TestNG.
       
 ## ➜ Read Data From WebPage Script
-        In thsi Script, i Get data from webPage Sheet and Print on Console.
+        In this Script, I Get data from webPage Sheet and Print on Console.
       
       
       
-      For More detail You find me on linkin: https://in.linkedin.com/in/sagar-shah-qa
+ 
+ <p align="center"><b>For More detail, You find me on linkedin: https://in.linkedin.com/in/sagar-shah-qa</b></p>
+ 
+
