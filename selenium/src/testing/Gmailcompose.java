@@ -37,7 +37,7 @@ public class Gmailcompose {
 		// enter password and click next
 		
 		
-		driver.findElement(By.name("password")).sendKeys("sagar1997" +Keys.ENTER);
+		driver.findElement(By.name("password")).sendKeys("ar1997" +Keys.ENTER);
 		
 		Thread.sleep(5000);
 		
